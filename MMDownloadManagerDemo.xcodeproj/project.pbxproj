@@ -1,0 +1,497 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FC83E35A1EFBD8A600EF7C41 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC83E3591EFBD8A600EF7C41 /* AppDelegate.swift */; };
+		FC83E35C1EFBD8A600EF7C41 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC83E35B1EFBD8A600EF7C41 /* ViewController.swift */; };
+		FC83E35F1EFBD8A600EF7C41 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC83E35D1EFBD8A600EF7C41 /* Main.storyboard */; };
+		FC83E3611EFBD8A600EF7C41 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FC83E3601EFBD8A600EF7C41 /* Assets.xcassets */; };
+		FC83E3641EFBD8A600EF7C41 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC83E3621EFBD8A600EF7C41 /* LaunchScreen.storyboard */; };
+		FC83E3741EFBD92300EF7C41 /* MMDownloadManager.h in Headers */ = {isa = PBXBuildFile; fileRef = FC83E3721EFBD92300EF7C41 /* MMDownloadManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FC83E3771EFBD92300EF7C41 /* MMDownloadManager.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC83E3701EFBD92300EF7C41 /* MMDownloadManager.framework */; };
+		FC83E3781EFBD92300EF7C41 /* MMDownloadManager.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = FC83E3701EFBD92300EF7C41 /* MMDownloadManager.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		FC83E3801EFBD94C00EF7C41 /* MMDownLoadExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC83E37D1EFBD94C00EF7C41 /* MMDownLoadExtensions.swift */; };
+		FC83E3811EFBD94C00EF7C41 /* MMDownloadManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC83E37E1EFBD94C00EF7C41 /* MMDownloadManager.swift */; };
+		FC83E3821EFBD94C00EF7C41 /* MMDownloadModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC83E37F1EFBD94C00EF7C41 /* MMDownloadModel.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FC83E3751EFBD92300EF7C41 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FC83E34E1EFBD8A600EF7C41 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FC83E36F1EFBD92300EF7C41;
+			remoteInfo = MMDownloadManager;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		FC83E37C1EFBD92300EF7C41 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				FC83E3781EFBD92300EF7C41 /* MMDownloadManager.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		FC83E3561EFBD8A600EF7C41 /* MMDownloadManagerDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MMDownloadManagerDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC83E3591EFBD8A600EF7C41 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FC83E35B1EFBD8A600EF7C41 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FC83E35E1EFBD8A600EF7C41 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FC83E3601EFBD8A600EF7C41 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FC83E3631EFBD8A600EF7C41 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FC83E3651EFBD8A600EF7C41 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FC83E3701EFBD92300EF7C41 /* MMDownloadManager.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MMDownloadManager.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC83E3721EFBD92300EF7C41 /* MMDownloadManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MMDownloadManager.h; sourceTree = "<group>"; };
+		FC83E3731EFBD92300EF7C41 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FC83E37D1EFBD94C00EF7C41 /* MMDownLoadExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MMDownLoadExtensions.swift; sourceTree = "<group>"; };
+		FC83E37E1EFBD94C00EF7C41 /* MMDownloadManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MMDownloadManager.swift; sourceTree = "<group>"; };
+		FC83E37F1EFBD94C00EF7C41 /* MMDownloadModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MMDownloadModel.swift; sourceTree = "<group>"; };
+		FCFAF1B31F06310D00D80215 /* MMDownloadManager.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = MMDownloadManager.podspec; sourceTree = "<group>"; };
+		FCFAF1B51F0651C700D80215 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FC83E3531EFBD8A600EF7C41 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC83E3771EFBD92300EF7C41 /* MMDownloadManager.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC83E36C1EFBD92300EF7C41 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FC83E34D1EFBD8A600EF7C41 = {
+			isa = PBXGroup;
+			children = (
+				FCFAF1B51F0651C700D80215 /* README.md */,
+				FCFAF1B31F06310D00D80215 /* MMDownloadManager.podspec */,
+				FC83E3581EFBD8A600EF7C41 /* MMDownloadManagerDemo */,
+				FC83E3711EFBD92300EF7C41 /* MMDownloadManager */,
+				FC83E3571EFBD8A600EF7C41 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FC83E3571EFBD8A600EF7C41 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FC83E3561EFBD8A600EF7C41 /* MMDownloadManagerDemo.app */,
+				FC83E3701EFBD92300EF7C41 /* MMDownloadManager.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FC83E3581EFBD8A600EF7C41 /* MMDownloadManagerDemo */ = {
+			isa = PBXGroup;
+			children = (
+				FC83E3591EFBD8A600EF7C41 /* AppDelegate.swift */,
+				FC83E35B1EFBD8A600EF7C41 /* ViewController.swift */,
+				FC83E35D1EFBD8A600EF7C41 /* Main.storyboard */,
+				FC83E3601EFBD8A600EF7C41 /* Assets.xcassets */,
+				FC83E3621EFBD8A600EF7C41 /* LaunchScreen.storyboard */,
+				FC83E3651EFBD8A600EF7C41 /* Info.plist */,
+			);
+			path = MMDownloadManagerDemo;
+			sourceTree = "<group>";
+		};
+		FC83E3711EFBD92300EF7C41 /* MMDownloadManager */ = {
+			isa = PBXGroup;
+			children = (
+				FC83E37D1EFBD94C00EF7C41 /* MMDownLoadExtensions.swift */,
+				FC83E37E1EFBD94C00EF7C41 /* MMDownloadManager.swift */,
+				FC83E37F1EFBD94C00EF7C41 /* MMDownloadModel.swift */,
+				FC83E3721EFBD92300EF7C41 /* MMDownloadManager.h */,
+				FC83E3731EFBD92300EF7C41 /* Info.plist */,
+			);
+			path = MMDownloadManager;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		FC83E36D1EFBD92300EF7C41 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC83E3741EFBD92300EF7C41 /* MMDownloadManager.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		FC83E3551EFBD8A600EF7C41 /* MMDownloadManagerDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FC83E3681EFBD8A600EF7C41 /* Build configuration list for PBXNativeTarget "MMDownloadManagerDemo" */;
+			buildPhases = (
+				FC83E3521EFBD8A600EF7C41 /* Sources */,
+				FC83E3531EFBD8A600EF7C41 /* Frameworks */,
+				FC83E3541EFBD8A600EF7C41 /* Resources */,
+				FC83E37C1EFBD92300EF7C41 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FC83E3761EFBD92300EF7C41 /* PBXTargetDependency */,
+			);
+			name = MMDownloadManagerDemo;
+			productName = MMDownloadManagerDemo;
+			productReference = FC83E3561EFBD8A600EF7C41 /* MMDownloadManagerDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FC83E36F1EFBD92300EF7C41 /* MMDownloadManager */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FC83E3791EFBD92300EF7C41 /* Build configuration list for PBXNativeTarget "MMDownloadManager" */;
+			buildPhases = (
+				FC83E36B1EFBD92300EF7C41 /* Sources */,
+				FC83E36C1EFBD92300EF7C41 /* Frameworks */,
+				FC83E36D1EFBD92300EF7C41 /* Headers */,
+				FC83E36E1EFBD92300EF7C41 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MMDownloadManager;
+			productName = MMDownloadManager;
+			productReference = FC83E3701EFBD92300EF7C41 /* MMDownloadManager.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FC83E34E1EFBD8A600EF7C41 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "zhang yinglong";
+				TargetAttributes = {
+					FC83E3551EFBD8A600EF7C41 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 57NQC2SA65;
+						ProvisioningStyle = Automatic;
+					};
+					FC83E36F1EFBD92300EF7C41 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 57NQC2SA65;
+						LastSwiftMigration = 0830;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = FC83E3511EFBD8A600EF7C41 /* Build configuration list for PBXProject "MMDownloadManagerDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FC83E34D1EFBD8A600EF7C41;
+			productRefGroup = FC83E3571EFBD8A600EF7C41 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FC83E3551EFBD8A600EF7C41 /* MMDownloadManagerDemo */,
+				FC83E36F1EFBD92300EF7C41 /* MMDownloadManager */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FC83E3541EFBD8A600EF7C41 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC83E3641EFBD8A600EF7C41 /* LaunchScreen.storyboard in Resources */,
+				FC83E3611EFBD8A600EF7C41 /* Assets.xcassets in Resources */,
+				FC83E35F1EFBD8A600EF7C41 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC83E36E1EFBD92300EF7C41 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FC83E3521EFBD8A600EF7C41 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC83E35C1EFBD8A600EF7C41 /* ViewController.swift in Sources */,
+				FC83E35A1EFBD8A600EF7C41 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC83E36B1EFBD92300EF7C41 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC83E3821EFBD94C00EF7C41 /* MMDownloadModel.swift in Sources */,
+				FC83E3801EFBD94C00EF7C41 /* MMDownLoadExtensions.swift in Sources */,
+				FC83E3811EFBD94C00EF7C41 /* MMDownloadManager.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FC83E3761EFBD92300EF7C41 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FC83E36F1EFBD92300EF7C41 /* MMDownloadManager */;
+			targetProxy = FC83E3751EFBD92300EF7C41 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FC83E35D1EFBD8A600EF7C41 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FC83E35E1EFBD8A600EF7C41 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FC83E3621EFBD8A600EF7C41 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FC83E3631EFBD8A600EF7C41 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FC83E3661EFBD8A600EF7C41 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FC83E3671EFBD8A600EF7C41 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FC83E3691EFBD8A600EF7C41 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 57NQC2SA65;
+				INFOPLIST_FILE = MMDownloadManagerDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Future-Entertainment-Co.Ltd..MMDownloadManagerDemo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		FC83E36A1EFBD8A600EF7C41 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 57NQC2SA65;
+				INFOPLIST_FILE = MMDownloadManagerDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Future-Entertainment-Co.Ltd..MMDownloadManagerDemo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		FC83E37A1EFBD92300EF7C41 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 57NQC2SA65;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = MMDownloadManager/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Future-Entertainment-Co.Ltd..MMDownloadManager";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		FC83E37B1EFBD92300EF7C41 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 57NQC2SA65;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = MMDownloadManager/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Future-Entertainment-Co.Ltd..MMDownloadManager";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FC83E3511EFBD8A600EF7C41 /* Build configuration list for PBXProject "MMDownloadManagerDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC83E3661EFBD8A600EF7C41 /* Debug */,
+				FC83E3671EFBD8A600EF7C41 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FC83E3681EFBD8A600EF7C41 /* Build configuration list for PBXNativeTarget "MMDownloadManagerDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC83E3691EFBD8A600EF7C41 /* Debug */,
+				FC83E36A1EFBD8A600EF7C41 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FC83E3791EFBD92300EF7C41 /* Build configuration list for PBXNativeTarget "MMDownloadManager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC83E37A1EFBD92300EF7C41 /* Debug */,
+				FC83E37B1EFBD92300EF7C41 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FC83E34E1EFBD8A600EF7C41 /* Project object */;
+}
